@@ -18,6 +18,11 @@
 }
 
 .postsWrapper {
+  display: flex;
+  margin-top: 2.5rem;
+}
+
+.subHeading {
   margin-top: 2.5rem;
 }
 
@@ -52,7 +57,11 @@
 }
 
 .yr {
-  margin: 2rem 0 2rem 0;
+  margin: 2rem 0 0 0;
+}
+
+.month {
+  padding-right: 3rem;
 }
 
 .mdUl {

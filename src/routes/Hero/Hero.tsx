@@ -28,9 +28,10 @@ async function Hero() {
           A consultant turned digital enthusiast. Dive in for Neovim, keyboards,
           and crafts.
         </h2>
+        <h1 className={styles.subHeading}>Articles</h1>
+        <h4 className={styles.yr}>2024</h4>
         <div className={styles.postsWrapper}>
-          <h1 className={styles.subHeading}>Articles</h1>
-          <h4 className={styles.yr}>2024</h4>
+          <h5 className={styles.month}>11-1-2024</h5>
           <ul className={styles.mdUl}>
             {posts.length > 0 ? (
               posts.map((post) => (
