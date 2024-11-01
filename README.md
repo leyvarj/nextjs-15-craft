@@ -1,5 +1,6 @@
-# This is the draft of my Next.js 15 blog.
+# This is the Draft of My Next.js 15 Blog
 
-## NOTE
+## Note to Self
 
-- I need to apply some styling to the home page.
+- I need to apply some styling to the homepage.
+- I need to learn about nested layout CSS styling.
