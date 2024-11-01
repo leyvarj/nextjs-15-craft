@@ -31,7 +31,11 @@ async function Hero() {
         <h1 className={styles.subHeading}>Articles</h1>
         <h4 className={styles.yr}>2024</h4>
         <div className={styles.postsWrapper}>
-          <h5 className={styles.month}>11-1-2024</h5>
+          <div>
+            <h5 className={styles.month}>11-1-2024</h5>
+            <h5 className={styles.month}>11-2-2024</h5>
+            <h5 className={styles.month}>11-2-2024</h5>
+          </div>
           <ul className={styles.mdUl}>
             {posts.length > 0 ? (
               posts.map((post) => (
