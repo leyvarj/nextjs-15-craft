@@ -1,6 +1,6 @@
 ---
-title: Neovim
+title: Fifi Choc (Chocofi)
 date: 10-31-24
 ---
 
-# This is Neovim
+# Fifi Choc (Chocofi) Barebones Keyboard

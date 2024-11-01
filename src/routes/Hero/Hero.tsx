@@ -28,12 +28,13 @@ async function Hero() {
           A consultant turned digital enthusiast. Dive in for Neovim, keyboards,
           and crafts.
         </h2>
-        <div className={styles.postsContainer}>
+        <div className={styles.postsWrapper}>
           <h1 className={styles.subHeading}>Articles</h1>
+          <h4 className={styles.yr}>2024</h4>
           <ul className={styles.mdUl}>
             {posts.length > 0 ? (
               posts.map((post) => (
-                <li key={post.slug}>
+                <li className={styles.mdLi} key={post.slug}>
                   <Link href={`/blog/${post.slug}`}>{post.title}</Link>
                 </li>
               ))
